@@ -18,6 +18,7 @@ Kext | Info | MinKernel | MaxKernel
 [USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports. | 15.0.0 (10.11) | |
 [XHCI-unsupported](https://disk.yandex.com.tr/d/OeeRKeeHThqYxQ) | 
 [USBWakeFixup](https://github.com/osy/USBWakeFixup) | This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
+[telemetrap](https://forums.macrumors.com/threads/mp3-1-others-sse-4-2-emulation-to-enable-amd-metal-driver.2206682/page-4?post=28447707#post-28447707) | SSE 4.2 emulation | 18.0.0 (10.14)	
 [AlpsHID](https://github.com/blankmac/AlpsHID) | This is a satellite kext which uses VoodooI2C's multitouch engine to bring native multitouch to the Alps touchpad using the HID protocol.
 [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) | VoodooI2C is a project consisting of macOS kernel extensions that add support for I2C bus devices. | 16.0.0 (10.12) |
 [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) | Contains updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad. | 15.0.0 (10.11) |
@@ -44,3 +45,4 @@ Kext | Info | MinKernel | MaxKernel
 [NoTouchID](https://github.com/al3xtjames/NoTouchID) | Lilu plugin for disabling Touch ID support. | 17.0.0 (10.13) | 19.9.9 (10.15)
 [Sinetek-rtsx](https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/page/2/#comment-2376387) | This driver is for Realtek SDHC card readers on a pci/pcie bus, most commonly found in laptops.
 [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader) | An unofficial macOS kernel extension for Realtek PCIe/USB-based SD card readers.
+[RealtekCardReaderFriend](https://github.com/0xFireWolf/RealtekCardReaderFriend) | A Lilu plugin that makes System Information recognize your Realtek card reader as a native one. |
