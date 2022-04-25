@@ -1,4 +1,4 @@
-## Kext Used 
+## Kexts
  
 Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
