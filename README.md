@@ -3,6 +3,9 @@
 ## Categories
  - s
  - [USB](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#usb)
+ - [Touchpad & Keyboard](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#touchpad--keyboard)
+ - [Ethernet](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#ethernet)
+ - [Wi-Fi & Bluetooth](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#wi-fi--bluetooth)
  
 Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
@@ -38,7 +41,9 @@ Kext | Info | MinKernel | MaxKernel
 [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) | Contains updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad. | 15.0.0 (10.11) |
 [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI) | A port for macOS of Synaptic's RMI Trackpad driver from Linux. | 15.0.0 (10.11) |
 
-Ethernet | Info | MinKernel | MaxKernel
+## Ethernet
+
+Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet) | Driver for the Qualcomm Atheros AR816x, AR817x, Killer E220x, Killer E2400 and Killer E2500 ethernet controller.
 [IntelMausi](https://github.com/acidanthera/IntelMausi) | Intel onboard LAN driver for macOS. | 	13.0.0 (10.9) | 
@@ -46,7 +51,9 @@ Ethernet | Info | MinKernel | MaxKernel
 [RealtekRTL8100](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/) | Driver for Realtek's RTL810X Fast Ethernet family.
 [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | Driver for the Realtek RTL8111/8168 family.
 
-Wi-Fi & Bluetooth | Info | MinKernel | MaxKernel
+## Wi-Fi & Bluetooth
+
+Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | An Intel Wi-Fi Adapter Kernel Extension for macOS. | 17.0.0 |
