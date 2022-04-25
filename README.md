@@ -2,7 +2,7 @@
 
 ## Categories
  - s
- - [USB](
+ - [USB](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#usb)
  
 Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
