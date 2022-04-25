@@ -44,7 +44,7 @@ Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [USBPorts or USBMap](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports. (via Hackintool or USBMap.command)
 [USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports. | 15.0.0 (10.11) | |
-[XHCI-unsupported](https://disk.yandex.com.tr/d/OeeRKeeHThqYxQ) | 
+[XHCI-unsupported](https://disk.yandex.com.tr/d/OeeRKeeHThqYxQ) | Use for USB port mapping (Haswell+) | 15.0.0 (10.11)
 [USBWakeFixup](https://github.com/osy/USBWakeFixup) | This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
 
 ## Lilu Plugins
