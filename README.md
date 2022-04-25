@@ -1,11 +1,13 @@
 # Kexts
 
 ## Categories
- - s
+ - [Required for macOS Installation](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#required-for-macos-installation)
  - [USB](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#usb)
  - [Touchpad & Keyboard](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#touchpad--keyboard)
  - [Ethernet](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#ethernet)
  - [Wi-Fi & Bluetooth](https://github.com/yusufklncc/About-Kexts-on-macOS/blob/main/README.md#wi-fi--bluetooth)
+ 
+## Required for macOS Installation
  
 Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
