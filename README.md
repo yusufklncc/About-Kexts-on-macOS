@@ -2,8 +2,9 @@
 
 ## Categories
  - [Required for macOS Installation](https://github.com/yusufklncc/About-Kexts-on-macOS#required-for-macos-installation)
- - [VirtualSMC Plugin](https://github.com/yusufklncc/About-Kexts-on-macOS#virtualsmc-plugin)
+ - [Audio](https://github.com/yusufklncc/About-Kexts-on-macOS#audio)
  - [USB](https://github.com/yusufklncc/About-Kexts-on-macOS#usb)
+ - [VirtualSMC Plugin](https://github.com/yusufklncc/About-Kexts-on-macOS#virtualsmc-plugin)
  - [Touchpad & Keyboard](https://github.com/yusufklncc/About-Kexts-on-macOS#touchpad--keyboard)
  - [Ethernet](https://github.com/yusufklncc/About-Kexts-on-macOS#ethernet)
  - [Wi-Fi & Bluetooth](https://github.com/yusufklncc/About-Kexts-on-macOS#wi-fi--bluetooth)
@@ -24,6 +25,15 @@ Kext | Info | MinKernel | MaxKernel
 [AppleALC](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
 [VoodooHDA](https://github.com/chris1111/VoodooHDA-OC) | If AppleALC won't work. You can use this. | 16.0.0 (10.12)
 
+## USB
+
+Kext | Info | MinKernel | MaxKernel
+:---------|:---------|:---------|:---------
+[USBPorts or USBMap](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports. (via Hackintool or USBMap.command)
+[USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports. | 15.0.0 (10.11) | |
+[XHCI-unsupported](https://disk.yandex.com.tr/d/OeeRKeeHThqYxQ) | 
+[USBWakeFixup](https://github.com/osy/USBWakeFixup) | This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
+
 ## VirtualSMC Plugin
 
 Kext | Info | MinKernel | MaxKernel
@@ -36,15 +46,6 @@ Kext | Info | MinKernel | MaxKernel
 [AsusSMC](https://github.com/hieplpvip/AsusSMC) | A VirtualSMC plugin provides native support for ALS, keyboard backlight and Fn keys for Asus laptops on macOS.
 [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor) | All AMD power management features. This kext is also required if you would like to use AMD Power Gadget.
 [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) | Enables macOS applications like iStat to display sensor data.
-
-## USB
-
-Kext | Info | MinKernel | MaxKernel
-:---------|:---------|:---------|:---------
-[USBPorts or USBMap](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports. (via Hackintool or USBMap.command)
-[USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports. | 15.0.0 (10.11) | |
-[XHCI-unsupported](https://disk.yandex.com.tr/d/OeeRKeeHThqYxQ) | 
-[USBWakeFixup](https://github.com/osy/USBWakeFixup) | This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
 
 ## Touchpad & Keyboard
 
