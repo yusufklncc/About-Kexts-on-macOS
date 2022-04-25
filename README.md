@@ -104,3 +104,10 @@ Kext | Info | MinKernel | MaxKernel
 [AirPortAtheros40](https://github.com/sXmpwn/atheros-kexts) | An Atheros Wi-Fi Adapter Kernel Extension for macOS. | 17.0.0 | 20.9.9 
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. | 14.0.0 (10.10) |
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | Kernel Extension that uploads Intel Wireless Bluetooth Firmware to provide native Bluetooth in macOS. | 
+  
+  
+<h1 align="center"> Donate - Bağış </h1>
+<p align="center">
+<a href="https://github.com/yusufklncc/yusfklncc/blob/main/Donate%20-%20Ba%C4%9F%C4%B1%C5%9F.md">
+  <img src="https://github.com/yusufklncc/yusfklncc/blob/main/Resources/Donate.png" width="300">
+
