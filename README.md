@@ -1,4 +1,8 @@
-## Kexts
+# Kexts
+
+## Categories
+ - s
+ - [USB](
  
 Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
@@ -16,14 +20,18 @@ Kext | Info | MinKernel | MaxKernel
 [AppleALC](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
 [telemetrap](https://forums.macrumors.com/threads/mp3-1-others-sse-4-2-emulation-to-enable-amd-metal-driver.2206682/page-4?post=28447707#post-28447707) | SSE 4.2 emulation | 18.0.0 (10.14)	
 
-USB | Info | MinKernel | MaxKernel
+## USB
+
+Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [USBPorts or USBMap](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports. (via Hackintool or USBMap.command)
 [USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports. | 15.0.0 (10.11) | |
 [XHCI-unsupported](https://disk.yandex.com.tr/d/OeeRKeeHThqYxQ) | 
 [USBWakeFixup](https://github.com/osy/USBWakeFixup) | This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
 
-Touchpad & Keyboard | Info | MinKernel | MaxKernel
+## Touchpad & Keyboard
+
+Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [AlpsHID](https://github.com/blankmac/AlpsHID) | This is a satellite kext which uses VoodooI2C's multitouch engine to bring native multitouch to the Alps touchpad using the HID protocol.
 [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) | VoodooI2C is a project consisting of macOS kernel extensions that add support for I2C bus devices. | 16.0.0 (10.12) |
