@@ -53,7 +53,6 @@ Kext | Info | MinKernel | MaxKernel
 [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader) | An unofficial macOS kernel extension for Realtek PCIe/USB-based SD card readers.
 [RealtekCardReaderFriend](https://github.com/0xFireWolf/RealtekCardReaderFriend) | A Lilu plugin that makes System Information recognize your Realtek card reader as a native one. |
 [Sinetek-rtsx](https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/page/2/#comment-2376387) | This driver is for Realtek SDHC card readers on a pci/pcie bus, most commonly found in laptops.
-
 [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | Lilu Kernel extension for enabling: Sidecar, NightShift, AirPlay to Mac, Universal Control. | 16.5.0 (12.4)
 
 ## VirtualSMC Plugins
