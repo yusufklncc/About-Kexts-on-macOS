@@ -14,6 +14,7 @@ Kext | Info | MinKernel | MaxKernel
 [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor) | All AMD power management features. This kext is also required if you would like to use AMD Power Gadget.
 [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) | Enables macOS applications like iStat to display sensor data.
 [AppleALC](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
+[telemetrap](https://forums.macrumors.com/threads/mp3-1-others-sse-4-2-emulation-to-enable-amd-metal-driver.2206682/page-4?post=28447707#post-28447707) | SSE 4.2 emulation | 18.0.0 (10.14)	
 
 Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
@@ -21,7 +22,6 @@ Kext | Info | MinKernel | MaxKernel
 [USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports. | 15.0.0 (10.11) | |
 [XHCI-unsupported](https://disk.yandex.com.tr/d/OeeRKeeHThqYxQ) | 
 [USBWakeFixup](https://github.com/osy/USBWakeFixup) | This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
-[telemetrap](https://forums.macrumors.com/threads/mp3-1-others-sse-4-2-emulation-to-enable-amd-metal-driver.2206682/page-4?post=28447707#post-28447707) | SSE 4.2 emulation | 18.0.0 (10.14)	
 
 Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
