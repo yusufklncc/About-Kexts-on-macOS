@@ -42,6 +42,7 @@ Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | An Intel Wi-Fi Adapter Kernel Extension for macOS. | 17.0.0 |
+[AirPortAtheros40](https://github.com/sXmpwn/atheros-kexts) | An Atheros Wi-Fi Adapter Kernel Extension for macOS. | 17.0.0 | 20.9.9 
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. | 14.0.0 (10.10) |
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | Kernel Extension that uploads Intel Wireless Bluetooth Firmware to provide native Bluetooth in macOS. | 
 
