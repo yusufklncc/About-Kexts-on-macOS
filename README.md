@@ -2,15 +2,15 @@
  
 Kext | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
-[Lilu.kext](https://github.com/acidanthera/Lilu) | An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. |  |
-[VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
-[WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen) | Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs.
-[SMCBatteryManager.kext](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that parses battery info.
-[SMCDellSensors](https://github.com/acidanthera/VirtualSMC) | 
-[SMCLightSensor](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that activate light sensor
-[SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that provides power info of processor temperature.
-[SMCSuperIO](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that reads fan speed.
-[AppleALC.kext](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
+[Lilu.kext](https://github.com/acidanthera/Lilu) | An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. | 8.0.0 (10.4) |
+[VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning. | 8.0.0 (10.4) |
+[WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen) | Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs. | 10.0.0 (10.6) | 
+[SMCBatteryManager.kext](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that parses battery info. | 8.0.0 (10.4) | 
+[SMCDellSensors](https://github.com/acidanthera/VirtualSMC) |  | 11.0.0 (10.7) |
+[SMCLightSensor](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that activate light sensor. | 10.0.0 (10.6) | 
+[SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that provides power info of processor temperature. | 11.0.0 (10.7) |
+[SMCSuperIO](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that reads fan speed. | 10.0.0 (10.6) |
+[AppleALC.kext](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
 [USBPorts.kext or USBMap.kext](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports. (via Hackintool or USBMap.command)
 [USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports. | 15.0.0 (10.11) | |
 [XHCI-unsupported.kext](https://disk.yandex.com.tr/d/OeeRKeeHThqYxQ) | 
@@ -28,8 +28,8 @@ Kext | Info | MinKernel | MaxKernel
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. | 14.0.0 (10.10) |
 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | Kernel Extension that uploads Intel Wireless Bluetooth Firmware to provide native Bluetooth in macOS. | 
 [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Automatic handling of brightness keys.
-[NVMeFix.kext](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily.
-[CPUFriend.kext](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection.
+[NVMeFix.kext](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily. | 18.0.0 (10.14) | 
+[CPUFriend.kext](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection. | 10.0.0 (10.6) | 
 [CPUFriendDataProvider.kext](https://github.com/corpnewt/CPUFriendFriend) | A CPUFriend plug-in for CPU power management.
 [FeatureUnlock.kext](https://github.com/acidanthera/FeatureUnlock) | Lilu Kernel extension for enabling: Sidecar, NightShift, AirPlay to Mac, Universal Control. | 
 [HibernationFixup.kext](https://github.com/acidanthera/HibernationFixup) | An open source kernel extension providing a sync between RTC variables and NVRAM.
