@@ -15,8 +15,14 @@ Kext | Info | MinKernel | MaxKernel
 [Lilu](https://github.com/acidanthera/Lilu) | An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. | 8.0.0 (10.4) |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning. | 8.0.0 (10.4) |
 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs. | 10.0.0 (10.6) | 
-[AppleALC](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
 [telemetrap](https://forums.macrumors.com/threads/mp3-1-others-sse-4-2-emulation-to-enable-amd-metal-driver.2206682/page-4?post=28447707#post-28447707) | SSE 4.2 emulation | 18.0.0 (10.14)	
+
+## Audio
+ 
+Kext | Info | MinKernel | MaxKernel
+:---------|:---------|:---------|:---------
+[AppleALC](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
+[VoodooHDA](https://github.com/chris1111/VoodooHDA-OC) | If AppleALC won't work. You can use this. | 16.0.0 (10.12)
 
 ## VirtualSMC Plugin
 
