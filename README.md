@@ -2,6 +2,7 @@
 
 ## Categories
  - [Required for macOS Installation](https://github.com/yusufklncc/About-Kexts-on-macOS#required-for-macos-installation)
+ - [VirtualSMC Plugin](https://github.com/yusufklncc/About-Kexts-on-macOS#virtualsmc-plugin)
  - [USB](https://github.com/yusufklncc/About-Kexts-on-macOS#usb)
  - [Touchpad & Keyboard](https://github.com/yusufklncc/About-Kexts-on-macOS#touchpad--keyboard)
  - [Ethernet](https://github.com/yusufklncc/About-Kexts-on-macOS#ethernet)
@@ -14,6 +15,13 @@ Kext | Info | MinKernel | MaxKernel
 [Lilu](https://github.com/acidanthera/Lilu) | An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. | 8.0.0 (10.4) |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning. | 8.0.0 (10.4) |
 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs. | 10.0.0 (10.6) | 
+[AppleALC](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
+[telemetrap](https://forums.macrumors.com/threads/mp3-1-others-sse-4-2-emulation-to-enable-amd-metal-driver.2206682/page-4?post=28447707#post-28447707) | SSE 4.2 emulation | 18.0.0 (10.14)	
+
+## VirtualSMC Plugin
+
+Kext | Info | MinKernel | MaxKernel
+:---------|:---------|:---------|:---------
 [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that parses battery info. | 8.0.0 (10.4) | 
 [SMCDellSensors](https://github.com/acidanthera/VirtualSMC) |  | 11.0.0 (10.7) |
 [SMCLightSensor](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that activate light sensor. | 10.0.0 (10.6) | 
@@ -22,8 +30,6 @@ Kext | Info | MinKernel | MaxKernel
 [AsusSMC](https://github.com/hieplpvip/AsusSMC) | A VirtualSMC plugin provides native support for ALS, keyboard backlight and Fn keys for Asus laptops on macOS.
 [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor) | All AMD power management features. This kext is also required if you would like to use AMD Power Gadget.
 [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) | Enables macOS applications like iStat to display sensor data.
-[AppleALC](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
-[telemetrap](https://forums.macrumors.com/threads/mp3-1-others-sse-4-2-emulation-to-enable-amd-metal-driver.2206682/page-4?post=28447707#post-28447707) | SSE 4.2 emulation | 18.0.0 (10.14)	
 
 ## USB
 
