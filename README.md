@@ -26,7 +26,7 @@
  
 ## Required for macOS Installation
  
-Kext | Info | MinKernel | MaxKernel
+Name | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [Lilu](https://github.com/acidanthera/Lilu) | An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. | 8.0.0 (10.4) |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning. | 8.0.0 (10.4) |
@@ -35,14 +35,14 @@ Kext | Info | MinKernel | MaxKernel
 
 ## Audio
  
-Kext | Info | MinKernel | MaxKernel
+Name | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [AppleALC](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 (10.4) | 
 [VoodooHDA](https://github.com/chris1111/VoodooHDA-OC) | If AppleALC won't work. You can use this. | 16.0.0 (10.12)
 
 ## USB
 
-Kext | Info | MinKernel | MaxKernel
+Name | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [USBPorts or USBMap](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports. (via Hackintool or USBMap.command)
 [USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports. | 15.0.0 (10.11) | |
@@ -51,7 +51,7 @@ Kext | Info | MinKernel | MaxKernel
 
 ## Lilu Plugins
 
-Kext | Info | MinKernel | MaxKernel
+Name | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection. | 10.0.0 (10.6) | 
 [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend) | A CPUFriend plug-in for CPU power management.
@@ -71,7 +71,7 @@ Kext | Info | MinKernel | MaxKernel
 
 ## VirtualSMC Plugins
 
-Kext | Info | MinKernel | MaxKernel
+Name | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that parses battery info. | 8.0.0 (10.4) | 
 [SMCDellSensors](https://github.com/acidanthera/VirtualSMC) |  | 11.0.0 (10.7) |
@@ -84,7 +84,7 @@ Kext | Info | MinKernel | MaxKernel
 
 ## Touchpad & Keyboard
 
-Kext | Info | MinKernel | MaxKernel
+Name | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [AlpsHID](https://github.com/blankmac/AlpsHID) | This is a satellite kext which uses VoodooI2C's multitouch engine to bring native multitouch to the Alps touchpad using the HID protocol.
 [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) | VoodooI2C is a project consisting of macOS kernel extensions that add support for I2C bus devices. | 16.0.0 (10.12) |
@@ -93,7 +93,7 @@ Kext | Info | MinKernel | MaxKernel
 
 ## Ethernet
 
-Kext | Info | MinKernel | MaxKernel
+Name | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet) | Driver for the Qualcomm Atheros AR816x, AR817x, Killer E220x, Killer E2400 and Killer E2500 ethernet controller.
 [IntelMausi](https://github.com/acidanthera/IntelMausi) | Intel onboard LAN driver for macOS. | 	13.0.0 (10.9) | 
@@ -103,7 +103,7 @@ Kext | Info | MinKernel | MaxKernel
 
 ## Wi-Fi & Bluetooth
 
-Kext | Info | MinKernel | MaxKernel
+Name | Info | MinKernel | MaxKernel
 :---------|:---------|:---------|:---------
 [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | An Intel Wi-Fi Adapter Kernel Extension for macOS. | 17.0.0 |
